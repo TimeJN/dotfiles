@@ -1,0 +1,287 @@
+set nocompatible
+filetype on
+filetype indent on
+filetype plugin on
+filetype plugin indent on
+
+syntax enable
+syntax on
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set directory=~/.vim/tmp
+set backupdir=~/.vim/.backup
+set termencoding=utf-8
+set encoding=utf-8
+set number
+set ruler
+set relativenumber
+set wrap
+set autochdir
+set cursorline
+set showmatch
+set hlsearch
+set incsearch
+set smartcase
+set clipboard=unnamed
+autocmd BufWritePost $MYVIMRC source $MYVIMRC
+
+" ===
+" === Editor behavior
+" ===
+" Better tab
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set list
+set listchars=tab:▸\ ,trail:▫
+set scrolloff=5
+
+" Better backspace
+set backspace=indent,eol,start
+
+set foldmethod=indent
+set foldlevel=99
+
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_SR = "\<Esc>]50;CursorShape=2\x7"
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+
+
+" Show command autocomplete
+set wildignore=log/**,node_modules/**,target/**,tmp/**,*.rbc
+set wildmenu                                                 " show a navigable menu for tab completion
+set wildmode=longest,list,full
+
+" ===
+" === Restore Cursor Position
+" ===
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+
+let &t_ut=''
+
+let mapleader=" "
+
+map s <nop>
+map S :w<CR>
+map Q :q<CR>
+noremap H ^
+noremap L $
+noremap K 4k
+noremap J 4j
+noremap <LEADER>p "+p
+noremap <LEADER>y "+y
+noremap <LEADER><CR> :nohlsearch<CR>
+map tu :tabe<CR>
+map tp :-tabnext<CR>
+map tn :+tabnext<CR>
+
+
+" split the screens to up (horizontal), down (horizontal), left (vertical), right (vertical)
+map sj :set nosplitbelow<CR>:split<CR>:set splitbelow<CR>
+map sk :set splitbelow<CR>:split<CR>
+map sh :set nosplitright<CR>:vsplit<CR>:set splitright<CR>
+map sl :set splitright<CR>:vsplit<CR>
+
+
+" Use <space> + new arrow keys for moving the cursor around windows
+map <LEADER>w <C-w>w
+map <LEADER>k <C-w>k
+map <LEADER>j <C-w>j
+map <LEADER>h <C-w>h
+map <LEADER>l <C-w>l
+
+" Resize splits with arrow keys
+map <up> :res -5<CR>
+map <down> :res +5<CR>
+map <left> :vertical resize+5<CR>
+map <right> :vertical resize-5<CR>
+
+
+" Place the two screens up and down
+noremap sh <C-w>t<C-w>K
+" Place the two screens side by side
+noremap sv <C-w>t<C-w>H
+
+" ===
+" === Tab management
+" ===
+" Create a new tab with tu
+map tu :tabe<CR>
+" Move around tabs with th and tl
+map th :-tabnext<CR>
+map tl :+tabnext<CR>
+
+
+call plug#begin('~/.vim/plugged')
+Plug 'vim-airline/vim-airline'
+Plug 'connorholyday/vim-snazzy'
+Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'plasticboy/vim-markdown', {'for': ['markdown', 'vim-plug']}
+Plug 'dhruvasagar/vim-table-mode', { 'on': 'TableModeToggle' }
+Plug 'ryanoasis/vim-devicons'
+Plug 'iamcco/markdown-preview.vim'
+Plug 'Valloric/YouCompleteMe'
+Plug 'tpope/vim-fugitive'
+Plug 'easymotion/vim-easymotion'
+Plug 'tpope/vim-commentary'
+Plug 'terryma/vim-multiple-cursors'
+call plug#end()
+
+"colorscheme snazzy
+"let g:SnazzyTransparent = 1
+
+""""""""""""""""""""""""""""""
+"vim-devicons settings
+""""""""""""""""""""""""""""""`
+set encoding=UTF-8
+
+"Can be enabled or disabled
+let g:webdevicons_enable_nerdtree = 1
+
+"whether or not to show the nerdtree brackets around flags
+let g:webdevicons_conceal_nerdtree_brackets = 1
+
+"adding to vim-airline's tabline
+let g:webdevicons_enable_airline_tabline = 1
+
+"adding to vim-airline's statusline
+let g:webdevicons_enable_airline_statusline = 1
+ 
+
+" ===
+" === NERDTree
+" ===
+map <leader>t :NERDTreeToggle<CR>
+" let NERDTreeMapOpenExpl = ""
+" let NERDTreeMapUpdir = ""
+" let NERDTreeMapUpdirKeepOpen = "l"
+" let NERDTreeMapOpenSplit = ""
+" let NERDTreeOpenVSplit = ""
+" let NERDTreeMapActivateNode = "i"
+" let NERDTreeMapOpenInTab = "o"
+" let NERDTreeMapPreview = ""
+" let NERDTreeMapCloseDir = "n"
+" let NERDTreeMapChangeRoot = "y"
+autocmd BufEnter * if 0 == len(filter(range(1, winnr('$')), 'empty(getbufvar(winbufnr(v:val), "&bt"))')) | qa! | endif
+"Show line number.
+let g:NERDTreeShowlineNumber=1
+
+"Show hide file.
+let g:NERDTreeHidden=0
+
+"Show Node model.
+let NERDTreeDirArrows=1
+
+"Delete help information at the top
+let NERDTreeMinimalUI=1
+
+let g:NERDTreeDirArrowExpandable = '|'
+let g:NERDTreeDirArrowCollapsible = '/'
+
+""""""""""""""""""""""""""""""
+"nerdtree-git-plugin settings
+""""""""""""""""""""""""""""""
+let g:NERDTreeGitStatusShowIgnored = 1
+
+let g:NERDTreeGitStatusIndicatorMapCustom = {
+    \ "Modified"  : "✹",
+    \ "Staged"    : "✚",
+    \ "Untracked" : "✭",
+    \ "Renamed"   : "➜",
+    \ "Unmerged"  : "═",
+    \ "Deleted"   : "✖",
+    \ "Dirty"     : "✗",
+    \ "Clean"     : "✔︎",
+    \ 'Ignored'   : '☒',
+    \ "Unknown"   : "?"
+    \ }
+
+
+""""""""""""""""""""""""""""""
+"vim-nerdtree-syntax-highlight settings
+""""""""""""""""""""""""""""""
+"Highlight full name (not only icons). You need to add this if you don't have vim-devicons and want highlight.
+let g:NERDTreeFileExtensionHighlightFullName = 1
+let g:NERDTreeExactMatchHighlightFullName = 1
+let g:NERDTreePatternMatchHighlightFullName = 1
+
+"Highlight full name (not only icons). You need to add this if you don't have vim-devicons and want highlight.
+let g:NERDTreeHighlightFolders = 1
+
+"highlights the folder name
+let g:NERDTreeHighlightFoldersFullName = 1
+
+"you can add these colors to your .vimrc to help customizing
+let s:brown = "905532"
+let s:aqua =  "3AFFDB"
+let s:blue = "689FB6"
+let s:darkBlue = "44788E"
+let s:purple = "834F79"
+let s:lightPurple = "834F79"
+let s:red = "AE403F"
+let s:beige = "F5C06F"
+let s:yellow = "F09F17"
+let s:orange = "D4843E"
+let s:darkOrange = "F16529"
+let s:pink = "CB6F6F"
+let s:salmon = "EE6E73"
+let s:green = "8FAA54"
+let s:Turquoise = "40E0D0"
+let s:lightGreen = "31B53E"
+let s:white = "FFFFFF"
+let s:rspec_red = "FE405F"
+let s:git_orange = "F54D27"
+let s:gray = "808A87"
+
+let g:NERDTreeExtensionHighlightColor = {} " this line is needed to avoid error
+let g:NERDTreeExtensionHighlightColor['o'] = s:gray " sets the color of o files to blue
+let g:NERDTreeExtensionHighlightColor['h'] = s:blue " sets the color of h files to blue
+let g:NERDTreeExtensionHighlightColor['c'] = s:green " sets the color of c files to blue
+let g:NERDTreeExtensionHighlightColor['cpp'] = s:green " sets the color of cpp files to blue
+let g:NERDTreeExtensionHighlightColor['c++'] = s:green " sets the color of c++ files to blue
+
+source ~/.vim/snippits.vim
+
+" MarkdownPreview
+" 指定浏览器路径
+let g:mkdp_path_to_chrome = "/usr/bin/google-chrome-stable"
+" " 指定预览主题，默认Github
+let g:mkdp_markdown_css=''
+
+" ===
+" " === vim-table-mode
+" " ===
+map <LEADER>tm :TableModeToggle<CR>
+
+" ===
+" === You Complete ME
+" ===
+nnoremap gd :YcmCompleter GoToDefinitionElseDeclaration<CR>
+nnoremap g/ :YcmCompleter GetDoc<CR>
+nnoremap gt :YcmCompleter GetType<CR>
+nnoremap gr :YcmCompleter GoToReferences<CR>
+let g:ycm_autoclose_preview_window_after_completion=0
+let g:ycm_autoclose_preview_window_after_insertion=1
+let g:ycm_use_clangd = 0
+"let g:ycm_python_binary_path = g:ycm_python_interpreter_path
+"let g:ycm_python_binary_path = system('which python3')
+"let g:ycm_key_list_select_completion   = ['<C-j>', '<C-n>', '<Down>']
+"let g:ycm_key_list_previous_completion = ['<C-k>', '<C-p>', '<Up>']
+
+
+" ===
+" === 
+" ===
+" 关闭插件默认映射
+let g:multi_cursor_use_default_mapping = 0
+" mapping
+let g:multi_cursor_start_word_key      = '<C-d>'	" 选中一个
+let g:multi_cursor_select_all_word_key = '<A-n>'	" 全选匹配的字符
+let g:multi_cursor_start_key           = 'g<C-d>'
+let g:multi_cursor_select_all_key      = 'g<A-n>'
+let g:multi_cursor_next_key            = '<C-d>'
+let g:multi_cursor_prev_key            = '<C-p>'	" 回到上一个
+let g:multi_cursor_skip_key            = '<C-x>'	" 跳过当前选中, 选中下一个
+let g:multi_cursor_quit_key            = '<Esc>'	" 退出
