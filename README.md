@@ -199,7 +199,7 @@
 
 ## 2 安装软件
 ```shell
-yay -S volumeicon picom xfce4-power-manager clipit feh blueman polkit-gnome polybar mpd google-chrome pcmanfm rofi
+yay -S volumeicon picom xfce4-power-manager clipit feh blueman polkit-gnome polybar mpd google-chrome pcmanfm rofi dunst
 ```
 
 

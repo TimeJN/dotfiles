@@ -12,6 +12,7 @@ rm -rf $HOME/.config/ranger
 rm -rf $HOME/.config/systemd
 rm -rf $HOME/.config/picom
 rm -rf $HOME/.config/fontconfig
+rm -rf $HOME/.config/dunst
 ln -s $PWD/.aria2 $HOME/.aria2
 ln -s $PWD/.vim $HOME/.vim
 ln -s $PWD/.xprofile $HOME/.xprofile
@@ -25,3 +26,4 @@ ln -s $PWD/.config/ranger/ $HOME/.config/ranger
 ln -s $PWD/.config/systemd/ $HOME/.config/systemd
 ln -s $PWD/.config/picom/ $HOME/.config/picom
 ln -s $PWD/.config/fontconfig/ $HOME/.config/fontconfig
+ln -s $PWD/.config/dunst/ $HOME/.config/dunst
