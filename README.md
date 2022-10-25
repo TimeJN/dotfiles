@@ -19,14 +19,14 @@
 
 ### 1.1 配置源
 
-- 配置pacman
-    - mirrorlist
+- 配置`pacman`
+    - `mirrorlist`
 
         `/etc/pacman.d/mirrorlist`
         ```shell
         Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
         ```
-    - archlinuxcn
+    - `archlinuxcn`
 
         `/etc/pacman.conf`
         ```shell
