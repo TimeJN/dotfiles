@@ -10133,3 +10133,21 @@ Oct 25 13:12 : player: played "怎叹 - 郑鱼.flac"
 Oct 25 14:57 : player: played "怎叹 - 郑鱼.flac"
 Oct 25 18:04 : client: [5] command "close" during idle
 Oct 25 18:07 : player: played "Numb - Linkin Park.flac"
+Oct 25 18:11 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 25 18:11 : player: played "从前说 - 小阿七.flac"
+Oct 25 18:16 : player: played "阿刁 (Live) - 张韶涵.flac"
+Oct 25 18:18 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 25 18:18 : player: played "阿刁 (Live) - 张韶涵.flac"
+Oct 25 18:23 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 25 18:23 : player: played "赤伶 - HITA.flac"
+Oct 25 18:25 : exception: Failed to open /home/gen/.config/mpd/playlists: No such file or directory
+Oct 25 18:28 : player: played "天下有情人 - 周华健、齐豫.flac"
+Oct 25 18:35 : player: played "千百度 - 许嵩.flac"
+Oct 25 18:40 : player: played "红尘客栈 - 周杰伦.flac"
+Oct 25 18:44 : player: played "星月神话  - 金莎.flac"
+Oct 25 19:58 : player: played "挪威的森林  - 伍佰 & China Blue.flac"
+Oct 26 00:39 : player: played "挪威的森林  - 伍佰 & China Blue.flac"
+Oct 26 09:11 : player: played "挪威的森林  - 伍佰 & China Blue.flac"
+Oct 26 09:13 : player: played "挪威的森林  - 伍佰 & China Blue.flac"
+Oct 26 09:23 : player: played "挪威的森林  - 伍佰 & China Blue.flac"
+Oct 26 10:21 : player: played "挪威的森林  - 伍佰 & China Blue.flac"
