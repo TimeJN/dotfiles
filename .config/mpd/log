@@ -10151,3 +10151,123 @@ Oct 26 09:11 : player: played "挪威的森林  - 伍佰 & China Blue.flac"
 Oct 26 09:13 : player: played "挪威的森林  - 伍佰 & China Blue.flac"
 Oct 26 09:23 : player: played "挪威的森林  - 伍佰 & China Blue.flac"
 Oct 26 10:21 : player: played "挪威的森林  - 伍佰 & China Blue.flac"
+Oct 26 13:25 : player: played "Warriors - Imagine Dragons.flac"
+Oct 26 13:24 : player: played "Warriors - Imagine Dragons.flac"
+Oct 26 13:46 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 13:46 : player: played "Warriors - Imagine Dragons.flac"
+Oct 26 13:50 : player: played "怎叹 - 郑鱼.flac"
+Oct 26 13:53 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 13:54 : player: played "春风吹 - 方大同.flac"
+Oct 26 13:59 : player: played "三寸天堂 - 严艺丹.flac"
+Oct 26 14:01 : player: played "白羊 - 曲肖冰.flac"
+Oct 26 14:05 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 14:06 : player: played "太阳 - 曲肖冰.flac"
+Oct 26 14:11 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 14:11 : player: played "漂洋过海来看你 - 孙露.flac"
+Oct 26 14:15 : player: played "青花瓷 - 周杰伦.flac"
+Oct 26 14:22 : player: played "挪威的森林  - 伍佰 & China Blue.flac"
+Oct 26 14:25 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 14:26 : player: played "风中有朵雨做的云 (粤语莫叫语版) - 莫叫姐姐.flac"
+Oct 26 14:30 : player: played "另一个天堂 - 王力宏、张靓颖.flac"
+Oct 26 14:32 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 14:33 : player: played "放空 - A1 TRIP、大籽、Lil E.flac"
+Oct 26 14:36 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 14:36 : player: played "关山酒 - 等什么君(邓寓君).flac"
+Oct 26 14:41 : player: played "世间美好与你环环相扣 - 柏松.flac"
+Oct 26 14:42 : player: played "相思 - 毛阿敏.flac"
+Oct 26 14:44 : player: played "相思 - 毛阿敏.flac"
+Oct 26 14:48 : player: played "千百度 - 许嵩.flac"
+Oct 26 14:51 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 14:51 : player: played "流浪 - 半阳.flac"
+Oct 26 14:55 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 14:55 : player: played "天地龙鳞 - 王力宏.flac"
+Oct 26 14:59 : player: played "三寸天堂 - 严艺丹.flac"
+Oct 26 14:59 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 26 15:02 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 15:02 : player: played "别错过 - 程佳佳.flac"
+Oct 26 15:06 : player: played "海底 - 若以止白.flac"
+Oct 26 15:11 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 15:11 : player: played "飞云之下 - 韩红、林俊杰.flac"
+Oct 26 15:16 : player: played "天下有情人 - 周华健、齐豫.flac"
+Oct 26 15:23 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 15:28 : player: played "陈一发儿 - 童话镇.flac"
+Oct 26 15:32 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 15:32 : player: played "一言难尽 - 张宇.flac"
+Oct 26 15:36 : player: played "世间美好与你环环相扣 - 柏松.flac"
+Oct 26 15:39 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 15:39 : player: played "消愁 (Live) - 毛不易.flac"
+Oct 26 15:44 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 15:44 : player: played "赤伶 - HITA.flac"
+Oct 26 15:45 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 15:46 : player: played "Silver Scrapes - Chronic Crew.flac"
+Oct 26 15:50 : player: played "蝴蝶泉边 - 黄雅莉.flac"
+Oct 26 15:54 : player: played "囍（Chinese Wedding） - 葛东琪.flac"
+Oct 26 15:58 : player: played "Lydia - 飞儿乐团.flac"
+Oct 26 16:02 : player: played "Dream It Possible - Delacey.flac"
+Oct 26 16:02 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 26 16:06 : player: played "玫瑰花的葬礼 - 许嵩.flac"
+Oct 26 16:10 : player: played "半壶纱 - 刘珂矣.flac"
+Oct 26 16:13 : player: played "丁香花 - 唐磊.flac"
+Oct 26 16:15 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 16:15 : player: played "丁香花 - 唐磊.flac"
+Oct 26 16:15 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 26 16:18 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 16:18 : player: played "踏山河 - 七叔(叶泽浩).flac"
+Oct 26 16:22 : player: played "雨蝶 - 李翊君.flac"
+Oct 26 16:26 : player: played "蝴蝶泉边 - 黄雅莉.flac"
+Oct 26 16:30 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 16:30 : player: played "体面 - 于文文.flac"
+Oct 26 16:31 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 26 16:35 : player: played "玫瑰花的葬礼 - 许嵩.flac"
+Oct 26 16:38 : player: played "We Are The Brave - Lenka.flac"
+Oct 26 16:41 : player: played "Mojito - 周杰伦.flac"
+Oct 26 16:45 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 16:45 : player: played "赤伶 - HITA.flac"
+Oct 26 16:49 : player: played "万疆 - 李玉刚.flac"
+Oct 26 16:53 : player: played "庐州月 - 许嵩.flac"
+Oct 26 16:57 : player: played "夜曲 - 周杰伦.flac"
+Oct 26 17:02 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 17:02 : player: played "起风了 - 买辣椒也用券.flac"
+Oct 26 17:06 : player: played "像我这样的人 - 毛不易.flac"
+Oct 26 17:10 : player: played "牵丝戏 - 银临、Aki阿杰.flac"
+Oct 26 17:13 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 17:14 : player: played "林中鸟 - 葛林.flac"
+Oct 26 17:17 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 17:17 : player: played "因为爱情 - 陈奕迅、王菲.flac"
+Oct 26 17:17 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 26 17:21 : player: played "遇见  - 孙燕姿.flac"
+Oct 26 17:25 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 17:25 : player: played "一言难尽 - 张宇.flac"
+Oct 26 17:29 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 17:30 : player: played "像鱼 - 王贰浪.flac"
+Oct 26 17:33 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 17:33 : player: played "天地龙鳞 - 王力宏.flac"
+Oct 26 17:36 : player: played "Butterfly - Smile. DK.flac"
+Oct 26 17:38 : player: played "心墙 - 郭静.flac"
+Oct 26 18:29 : player: played "心墙 - 郭静.flac"
+Oct 26 18:32 : player: played "不如 - 秦海清.flac"
+Oct 26 18:36 : player: played "想象之中 - 许嵩.flac"
+Oct 26 18:41 : player: played "三寸天堂 - 严艺丹.flac"
+Oct 26 18:41 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+Oct 26 18:45 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 18:45 : player: played "赤伶 - HITA.flac"
+Oct 26 18:49 : player: played "千百度 - 许嵩.flac"
+Oct 26 18:53 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 18:53 : player: played "不如他 - 杨馥伊.flac"
+Oct 26 18:56 : player: played "囍（Chinese Wedding） - 葛东琪.flac"
+Oct 26 19:00 : player: played "夜的第七章 - 周杰伦.flac"
+Oct 26 19:04 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 19:05 : player: played "不谓侠 - 萧忆情Alex.flac"
+Oct 26 19:08 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 26 19:08 : player: played "春风吹 - 方大同.flac"
+Oct 26 20:55 : player: played "大风吹 - 王赫野.flac"
+Oct 27 11:18 : player: played "大风吹 - 王赫野.flac"
+Oct 27 11:18 : player: played "大风吹 - 王赫野.flac"
+Oct 27 13:51 : player: played "大风吹 - 王赫野.flac"
+Oct 28 10:06 : player: played "大风吹 - 王赫野.flac"
+Oct 28 16:52 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 28 16:52 : player: played "大风吹 - 王赫野.flac"
+Oct 28 16:55 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 28 16:56 : player: played "处处吻 - 杨千嬅.flac"
+Oct 28 17:00 : player: played "烟花易冷 - 周杰伦.flac"
+Oct 28 17:03 : player: played "红昭愿 - 音阙诗听.flac"
