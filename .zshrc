@@ -103,3 +103,32 @@ export VISUAL=/usr/bin/vim
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias sudo='sudo env HOME=$HOME'
+
+function proxyon() {
+  echo "proxy on"
+  export https_proxy=http://127.0.0.1:7890;export http_proxy=http://127.0.0.1:7890;export all_proxy=socks5://127.0.0.1:7890
+}
+
+function proxyoff() {
+  echo "proxy off"
+  unset https_proxy http_proxy all_proxy
+}
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/anaconda/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/anaconda/etc/profile.d/conda.sh" ]; then
+        . "/opt/anaconda/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/anaconda/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+export VIRTUALENVWRAPPER_PYTHON="/usr/bin/python"
+export WORKON_HOME="~/.virtualenvs"
+source ~/.local/bin/virtualenvwrapper.sh
